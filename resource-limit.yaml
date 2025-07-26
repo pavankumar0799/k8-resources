@@ -1,15 +1,31 @@
+# kind: Pod
+# apiVersion: v1
+# metadata:
+#  name: resource-limit
+# spec:
+#  containers:
+#  - name: nginx
+#    image: nginx
+#    resources:
+#      requests:
+#        cpu: 100m
+#        memory: 68Mi
+#      limit: 
+#        cpu: 120m
+#        memory: 100Mi
+
 kind: Pod
 apiVersion: v1
 metadata:
- name: resource-limit
+  name: limits
 spec:
- containers:
- - name: nginx
-   image: nginx
-   resources:
-     requests:
-       cpu: 100m
-       memory: 68Mi
-     limit: 
-       cpu: 120m
-       memory: 100Mi
+  containers:
+  - name: nginx
+    image: nginx
+    resources:
+      requests:
+        cpu: 100m
+        memory: 68Mi
+      limits:
+        cpu: 120m
+        memory: 100Mi       
