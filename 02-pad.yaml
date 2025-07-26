@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: pod
+metadata: 
+  name: pavan
+spec:
+  containers:
+   name: nginx
+   image: nginx
