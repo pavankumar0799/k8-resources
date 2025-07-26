@@ -1,25 +1,25 @@
-# apiVersion: v1
-# kind: Pad
-# metadata:
-#   name: labels
-#   labels:
-#    project: expense
-#    environment: dev
-#    module: backend
-# spec:
-#  containers:
-#  - name: nginx
-#    image: nginx
-
-kind: Pod
 apiVersion: v1
+kind: Pod
 metadata:
   name: labels
   labels:
-    project: expense
-    module: backend
-    environment: dev
+   project: expense
+   environment: dev
+   module: backend
 spec:
-  containers:
-  - name: nginx
-    image: nginx
+ containers:
+ - name: nginx
+   image: nginx
+
+# kind: Pod
+# apiVersion: v1
+# metadata:
+#   name: labels
+#   labels:
+#     project: expense
+#     module: backend
+#     environment: dev
+# spec:
+#   containers:
+#   - name: nginx
+#     image: nginx
