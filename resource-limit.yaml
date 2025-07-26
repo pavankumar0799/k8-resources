@@ -1,7 +1,7 @@
 kind: Pod
 apiVersion:
 metadata:
- name: limit
+ name: limits
 spec:
  containers:
  - name: nginx
