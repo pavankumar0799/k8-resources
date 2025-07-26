@@ -1,29 +1,29 @@
-kind: Service
-apiVersion: v1
-metadata:
- name: nginx
-spec:
-  selector:
-    project: expense
-    module: backend
-    environment: dev
-  ports:
-  - name: nginx-svc-Port
-    protocal: TCP
-    port: 80
-    targetport: 80
-
 # kind: Service
 # apiVersion: v1
 # metadata:
-#   name: nginx
+#  name: nginx
 # spec:
 #   selector:
 #     project: expense
 #     module: backend
 #     environment: dev
 #   ports:
-#   - name: nginx-svc-port
-#     protocol: TCP
-#     port: 80 # service port
-#     targetPort: 80 # container port
+#   - name: nginx-svc-Port
+#     protocal: TCP
+#     port: 80
+#     targetport: 80
+
+kind: Service
+apiVersion: v1
+metadata:
+  name: nginx
+spec:
+  selector:
+    project: expense
+    module: backend
+    environment: dev
+  ports:
+  - name: nginx-svc-port
+    protocol: TCP
+    port: 80 # service port
+    targetPort: 80 # container port
