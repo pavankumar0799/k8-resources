@@ -1,8 +1,7 @@
-apiversion: v1
-validate: false
+apiVersion: v1
 kind: Namespace
 metadata:
-   name: pavan
-   labels: 
-      project: pavan
-      environment: dev
+  name: expense
+  labels:
+    project: expense
+    environment: dev
