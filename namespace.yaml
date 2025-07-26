@@ -1,7 +1,7 @@
 apiversion: v1
-kind: namespace
-metadate:
+kind: Namespace
+metadata:
    name: pavan
    labels: 
-      name: pavan
+      project: pavan
       environment: dev
