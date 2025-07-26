@@ -1,6 +1,6 @@
 kind: Service
 apiVersion: v1
-metadate:
+metadata:
  name: nginx
 spec:
   selector:
