@@ -1,0 +1,8 @@
+kind: configmap
+apiVersion: v1
+metadata:
+ name: nginx-config
+data:
+  course: devops
+  name: pavan
+ 
