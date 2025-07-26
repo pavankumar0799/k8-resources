@@ -1,4 +1,4 @@
-kind: configmap
+kind: configMap
 apiVersion: v1
 metadata:
  name: nginx-config
@@ -6,3 +6,11 @@ data:
   course: devops
   name: pavan
  
+
+# apiVersion: v1
+# kind: ConfigMap
+# metadata:
+#   name: nginx-config
+# data:
+#   course: devops
+#   duration: "120hrs"
