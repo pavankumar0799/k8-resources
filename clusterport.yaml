@@ -11,4 +11,4 @@ Ports:
 - name: nginx-Svc-Ports
   protocal: TCP
   port: 80
-  target port: 80  
+  targetport: 80  
