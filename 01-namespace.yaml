@@ -1,4 +1,5 @@
 apiversion: v1
+validate: false
 kind: Namespace
 metadata:
    name: pavan
